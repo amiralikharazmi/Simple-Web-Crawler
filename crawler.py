@@ -12,7 +12,7 @@ SAVE_TO_FILE = 'data.csv'
 
 def initial():
     chrome_options = Options()
-    chrome_options.add_argument("webdriver.chrome.driver=driver/chromedriver.exe")
+    chrome_options.add_argument("webdriver.chrome.driver=chromedriver.exe")
     global driver
     driver = webdriver.Chrome(options=chrome_options)
 
